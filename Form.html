@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="data-form">Data Form</div>
+    <br />
+    <form class="form-class" action="index.html">
+      <div>
+        <input
+          placeholder="First Name"
+          class="input-class"
+          id="firstName"
+          name="firstName"
+          type="text"
+        />
+      </div>
+       
+      <div>
+        <input
+          placeholder="Last Name"
+          class="input-class"
+          name="lastName"
+          type="text"
+        />
+      </div>
+     
+      <div>
+        <input
+          class="input-class"
+          name="email"
+          placeholder="Email"
+          pattern="[a-zA-Z0-9_.%]+@+[a-zA-Z0-9_.%]+.+[a-zA-Z0-9_.%]"
+          type="email"
+          required
+        />
+      </div>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
