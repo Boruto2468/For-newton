@@ -1,45 +1,33 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="data-form">Data Form</div>
-    <br />
-    <form class="form-class" action="index.html">
-      <div>
-        <input
-          placeholder="First Name"
-          class="input-class"
-          id="firstName"
-          name="firstName"
-          type="text"
-        />
-      </div>
-       
-      <div>
-        <input
-          placeholder="Last Name"
-          class="input-class"
-          name="lastName"
-          type="text"
-        />
-      </div>
-     
-      <div>
-        <input
-          class="input-class"
-          name="email"
-          placeholder="Email"
-          pattern="[a-zA-Z0-9_.%]+@+[a-zA-Z0-9_.%]+.+[a-zA-Z0-9_.%]"
-          type="email"
-          required
-        />
-      </div>
-      
-      <button type="submit">Submit</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body style="align-content: center; display: flex; justify-content: center; width: 100%;">
+    <div class="data-form">
+        Data Form
+    </div>
+    <br/>
+    <form action="index.html">
+        <div>
+            <label>First Name</label>
+            <input class="input-class" id="firstName" type="text" name="firstName">
+        </div>
+        <br/>
+        <div>
+            <label>Last Name</label>
+            <input class="input-class" type="text" name="lastName">
+        </div>
+        <br/>
+        <div>
+            <label>Email</label>
+            <input class="input-class" type="email" pattern="[a-zA-Z0-9_.%]+@+[a-zA-Z0-9_.%]+.+[a-zAA-Z0-9_.%]" name="email" required>
+        </div>
+        <br/>
+        <button type="submit">Submit</button>
     </form>
-  </body>
+</body>
 </html>
