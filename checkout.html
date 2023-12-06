@@ -24,47 +24,76 @@
     </nav>
     <section class="top-section">
         <div class="top-section-container">
-        <div class="top-section-title">
-            <h1 style="margin: 0;">Check out</h1>
-            <h5 style="font-size: 18px; font-style: normal; font-weight: 400;">Complete your order and we'll bring it to your door.</h5>
-            <!-- Title and sub title -->
-        
-        <div class="top-section-image">
-            <!-- Right image -->
+            <div class="text-wrapper">
+                <h1 class="top-section-title">Check out</h1>
+                <h5 class="top-section-subtitle">Complete your order and we'll bring it to your door. </h5>
+                <!-- Title and sub title -->
+            </div>
+            <div class="top-section-image">
+                <!-- Right Image -->
+            </div>
         </div>
-        <!--Top Section-->
     </section>
-    <section>
-        <table>
-            <thead class="cupcake1">
-                <td class="Images"><img src="/assets/images/cupcake1.png"></td>
-                <td>Carrot</td>
-                <td>1</td>
-                <td>$3.49</td>
-            </thead>
-            <tr class="cupcake2">
-                <td class="Images"><img src="/assets/images/cupcake2.png"></td>
-                <td>Red Velvet</td>
-                <td>3</td>
-                <td>$10.47</td>
-            </tr>
-            <tr class="cupcake3">
-                <td class="Images"><img src="/assets/images/cupcake3.png"></td>
-                <td>Mint Chip</td>
-                <td>2</td>
-                <td>$6.98</td>
-            </tr>
-            <tr class="cupcake4">
-                <td class="Images"><img src="/assets/images/cupcake4.png"></td>
-                <td>Pink Strawberry</td>
-                <td>2</td>
-                <td>$6.98</td>
-            </tr>
-        </table>
-        <div class="line"></div>
-        <!--Body-->
+    <section class="list-section">
+        <div class="list-section-container">
+            <table>
+
+
+                <tr>
+                    <th style="width: 152px;"><img src="./assets/images/cupcake1.png" /></th>
+                    <th style="width: 500px;">Carrot</th>
+                    <th style="width:80px;">1</th>
+                    <th>$3.49</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="./assets/images/cupcake2.png" />
+                    </td>
+                    <td> Red Velvet</td>
+                    <td>3</td>
+                    <td>$10.47</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/images/cupcake3.png"/></td>
+                    <td>Mint Chip</td>
+                    <td>2</td>
+                    <td>$6.98</td>
+                </tr>
+                <tr>
+                    <td><img src="./assets/images/cupcake4.png"/></td>
+                    <td>Pink Strawbeerry</td>
+                    <td>2</td>
+                    <td>$6.98</td>
+                </tr>
+            </table>
+            <svg style="stroke-width: 2px;
+            stroke: #642C99; width: 90%;  align-self: center; margin-top: 80px; display: flex;" xmlns="http://www.w3.org/2000/svg" width="1036" height="2" viewBox="0 0 1036 2" fill="none">
+                <path d="M1036 1H0" stroke="#642C99" stroke-width="2"/>
+              </svg>
+
+            <div class="total-container">
+                <p class="total-label">Total to pay</p>
+                <p class="total">$27.92</p>
+            </div>
+        </div>
     </section>
+    <button class="order">PLACE ORDER</button>
     <footer>
+        <p class="footer-sub">Miss Cupcake</p>
+        <div class="footer-links">
+            <a href="">Shop</a>
+            <a href="">Our Story</a>
+            <a href="">Why Miss cupcake</a>
+        </div>
+        <div class="email-container">
+            <p class="Emailsub">Sugar up your Inbox</p>
+            <input type="email" 
+            placeholder="Email address" 
+            pattern="[a-zA-Z0-9_.%]+@+[a-zA-Z0-9_.%]+.+[a-zA-Z0-9_.%]"
+            required>
+            <button class="Send" type="submit">Send</button>
+        </div>
+        
         <!-- Footer for the page -->
     </footer>
 </body>
