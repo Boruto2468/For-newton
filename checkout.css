@@ -156,6 +156,9 @@ nav{
     font-size: 16px;
     font-weight: 400;
   }
+  .order:hover{
+    background: #832c99;
+  }
   footer{
     flex-direction: row;
     margin-top: 800px;
