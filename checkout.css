@@ -3,6 +3,9 @@
 body{
     background: url(./assets/images/bg\ 5.png), lightgray 50% / cover no-repeat;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 nav{
     width: 100%;
@@ -125,23 +128,22 @@ nav{
     text-align: center;
     align-items: center;
     gap: 80px;
-    
   }
   
   .total-label{
-  color: #642C99;
-  font-family: Lato;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
+    color: #642C99;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
   }
   .total{
     color: #642C99;
-  text-align: center;
-  font-family: Wendy One;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
+    text-align: center;
+    font-family: Wendy One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
   
   }
   .order{
@@ -165,7 +167,7 @@ nav{
     justify-content: center;
     width: 100%;
     display: flex;
-
+    gap: 15vw;
   }
 .footer-sub{
     color: #FDEFD1;
@@ -174,13 +176,17 @@ nav{
     font-style: normal;
     font-weight: 400;
     justify-content: left;
+    width: 15vw;
+}
+.footer-links{
+  justify-content: space-between;
 }
 .footer-links>a{
     color: #FDEFD1;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     line-height: 30px; /* 166.667% */
     text-decoration: none;
     display: flex;
@@ -191,5 +197,16 @@ nav{
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
+}
+.footer-quicklinks{
+  display: flex;
+  margin-top: 30px;
+  color: #FDEFD1;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: light;
+  font-weight: 100;
+  gap: 30px;
+  justify-content: center;
 }
