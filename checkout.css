@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Wendy+One&display=swap");
 
 body {
-  background: url("../images/bg.png"), lightgray 50% / cover no-repeat;
+  background: url("./assets/images/bg\ 5.png"), lightgray 50% / cover no-repeat;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@ nav {
   position: absolute;
   top: 0%;
   left: 60%;
-  background: url("../images/donuts1.png"), 100% / cover no-repeat;
+  background: url("./assets/images/donut1.png"), 100% / cover no-repeat;
 }
 
 .top-section-title {
