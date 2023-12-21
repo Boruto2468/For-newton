@@ -1,26 +1,26 @@
 [
     {
-        "image_url":"./assets/images/cupcake1.png",
-        "name":"Carrot",
+        "image_url": "assets/images/cupcake1.png",
+        "name": "Carrot",
         "quantity": 1,
-        "price":20.52
+        "amount": 20.52
     },
     {
-        "image_url":"./assets/images/cupcake2.png",
-        "name":"Red Velvet",
-        "quantity": 1,
-        "price":20.52
+        "image_url": "assets/images/cupcake2.png",
+        "name": "Red Velvet",
+        "quantity": 3,
+        "amount": 15.23
     },
     {
-        "image_url":"./assets/images/cupcake3.png",
-        "name":"Mint Chip",
-        "quantity": 1,
-        "price":20.52
+        "image_url": "assets/images/cupcake3.png",
+        "name": "Mint Chip",
+        "quantity": 2,
+        "amount": 21.22
     },
     {
-        "image_url":"./assets/images/cupcake4.png",
-        "name":"Pink Strawberry",
-        "quantity": 1,
-        "price":20.52
+        "image_url": "assets/images/cupcake4.png",
+        "name": "Pink Strawberry",
+        "quantity": 9,
+        "amount": 20.52
     }
 ]
