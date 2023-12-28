@@ -1,24 +1,15 @@
 {
-  "name": "newtona",
+  "name": "newton-academy-lectures",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "newton-academy-lectures",
+  "start": "node server.js",
+  "main": "sever.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Boruto2468/For-newton.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Boruto2468/For-newton/issues"
-  },
-  "homepage": "https://github.com/Boruto2468/For-newton#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "fs": "^0.0.1-security"
+    "express": "^4.18.2"
   }
 }
